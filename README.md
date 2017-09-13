@@ -16,17 +16,23 @@ These are the case scenarios which i accomplished during online Big Data BootCam
 7. Environment(unix/linus shell)
 8. Cluster
  
-##  Individual breakdown of coverage per each component:
-# HDFS: Hadoop fs commands for  moving ,copying(from/to hdfs or local), permissions, locating , files and blocks information etc. 
-# Sqoop: Used for integrating hdfs to relational databases and hive. Creating jobs to perform delta uploads or merging to the existing files or tables.
-# Hive: Used to create  warehouse to convert unstructured data to structured to perform analytics on it.
-Query performance was improved by creating  dynamic and static partitions using list, range and hash techniques and saving the files in avro, parquet, orc, json, text using compressions like snappy, gzip etc.
-# Pyspark: Structured and unstructured data was analyzed using spark RDD, SparkSql, Python dataframe operations to clean, manipulate and generate analysis on it.
-Reading the data from different file formats like parquet, avro, json, sequence, text, csv, orc format and saving the results/output using gzip, snappy to attain efficiency and converting Rdd to dataframes or dataframes to RDD 
-# Mysql Database: To export and import the relational data to/from HDFS.
-# Unix/linux Shell: For managing local file operations as well as finding, locating the driver files,  
-config files and installing/uninstalling applications.
-# Cluster: To simulate the real-time scenario i have used 12 nodes hortonworks cluster.(https://labs.itversity.com/#/)
+# Individual breakdown of coverage per each component:
+  1. HDFS: Hadoop fs commands for  moving ,copying(from/to hdfs or local), permissions, locating , files and blocks   
+     information etc. 
+  2. Sqoop: Used for integrating hdfs to relational databases and hive. Creating jobs to perform delta uploads or 
+     merging to the existing files or tables.
+  3. Hive: Used to create  warehouse to convert unstructured data to structured to perform analytics on it.
+     Query performance was improved by creating  dynamic and static partitions using list, range and hash techniques and   
+     saving the files in avro, parquet, orc, json, text using compressions like snappy, gzip etc.
+  4. Pyspark: Structured and unstructured data was analyzed using spark RDD, SparkSql, Python dataframe operations to 
+              clean, manipulate and generate analysis on it.
+              Reading the data from different file formats like parquet, avro, json, sequence, text, csv, orc format and 
+              saving the results/output using gzip, snappy to attain efficiency and converting Rdd to dataframes or 
+              dataframes to RDD 
+  5. Mysql Database: To export and import the relational data to/from HDFS.
+  6. Unix/linux Shell: For managing local file operations as well as finding, locating the driver files,  
+                       config files and installing/uninstalling applications.
+  7. Cluster: To simulate the real-time scenario i have used 12 nodes hortonworks cluster.(https://labs.itversity.com/#/)
 
 
 ## Data Model Used during this project:
@@ -44,8 +50,8 @@ config files and installing/uninstalling applications.
     6. Load data into and out of HDFS using the Hadoop File System commands
 
 ## Transform, Stage, and Store
- Convert a set of data values in a given format stored in HDFS into new data values or a new data format and  
- write them into HDFS.
+ Convert a set of data values in given format in HDFS into new data values or a new data format and write them into HDFS.
+ 
     1. Load RDD data from HDFS for use in Spark applications
     2. Write the results from an RDD back into HDFS using Spark
     3. Read and write files in a variety of file formats
@@ -65,8 +71,7 @@ config files and installing/uninstalling applications.
   
   Deliverables:
   Uploaded my Jupyter Notebook with the problem Scenarios and their solutions/approach to solve them.
-  Here is the link to Notebook :
-
+  Here is the link to Notebook : 
   
     
  
