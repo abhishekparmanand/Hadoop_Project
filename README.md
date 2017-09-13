@@ -71,7 +71,7 @@ These are the case scenarios which i accomplished during online Big Data BootCam
   
   Deliverables:
   Uploaded my Jupyter Notebook with the problem Scenarios and their solutions/approach to solve them.
-  Here is the link to Notebook :[Jupyter Notebook](https://github.com/abhishekparmanand/Hadoop_Project/blob/master/Hadoop%2BScenarios.ipynb)
+  Here is the link to Notebook : [Jupyter Notebook](https://github.com/abhishekparmanand/Hadoop_Project/blob/master/Hadoop%2BScenarios.ipynb)
   
     
  
